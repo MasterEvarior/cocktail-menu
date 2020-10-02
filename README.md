@@ -1,4 +1,5 @@
-# cocktail-menu
+# Cocktail Menu
+Just a cocktail menu for my at-home bar, so that I don't have to list a hundred drinks everytime I'm asked whats available/doable.
 
 ## Project setup
 ```
