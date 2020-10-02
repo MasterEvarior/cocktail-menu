@@ -1,0 +1,16 @@
+{
+    "cocktails": {
+        "classics": [
+            {
+                "name": "Martini",
+                "ingredients": [
+                    "Gin", "Vermouth"
+                ],
+                "description": ""
+            }
+        ],
+        "non-alcoholic": [
+
+        ]
+    }
+}

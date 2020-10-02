@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Category from '../views/Category.vue'
 
 Vue.use(VueRouter)
 
@@ -11,8 +12,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/non-alcoholic',
-    name: 'Non-Alcoholic'
+    path: '/:category',
+    name: 'Category',
+    component: Category
   }
 ]
 

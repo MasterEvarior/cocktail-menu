@@ -8,12 +8,17 @@
     </v-app-bar>
 
     <v-navigation-drawer app dark v-model="drawer">
-      <v-list> 
-        <CategoryListItem v-for="category in categories" v-bind:key="category.name" :category="category"/>
+      <v-list>
+        <CategoryListItem
+          v-for="category in categories"
+          v-bind:key="category.name"
+          :category="category"
+        />
       </v-list>
     </v-navigation-drawer>
-
-    <v-main> </v-main>
+    <v-main> 
+      <router-view/>
+    </v-main>
   </v-app>
 </template>
 
@@ -29,7 +34,7 @@ export default {
   data() {
     return {
       drawer: false,
-      categories: categories
+      categories: categories,
     };
   },
 };

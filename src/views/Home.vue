@@ -1,6 +1,11 @@
 <template>
-  <div class="home">
-  </div>
+  <v-container>
+    <v-row>
+      <v-col>
+        Home
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
