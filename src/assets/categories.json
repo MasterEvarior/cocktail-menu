@@ -1,0 +1,16 @@
+{
+    "categories": [
+        {
+            "name": "The Classics",
+            "icon": "glass-cocktail",
+            "url": "classics",
+            "description": "Classic Cocktails"
+        },
+        {
+            "name": "Non Alcoholic",
+            "icon": "",
+            "url": "non-alcoholic",
+            "description": "Although long thought to be a myth, apparently you can have fun without alcohol. Who would have though?"
+        }
+    ]
+}
