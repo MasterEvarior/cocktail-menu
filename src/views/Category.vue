@@ -1,11 +1,11 @@
 <template>
   <v-container class="category">
-    <SubCategory v-for="subCategory in this.subCategories" :key="subCategory.key" v-bind:subCategory="subCategory"/>
+    <SubCategory v-for="subCategory in this.subCategories" :key="subCategory.key" v-bind:subCategory='subCategory'/>
   </v-container>
 </template>
 
 <script>
-import { cocktails } from "../assets/cocktails.json";
+import { categories } from "../assets/cocktails.json";
 import SubCategory from "../components/SubCategory";
 
 export default {
@@ -15,7 +15,7 @@ export default {
   },
   computed: {
     subCategories:  function(){
-      return cocktails[this.$route.params.category];
+      return categories[this.$route.params.category];
     }
   }
 };

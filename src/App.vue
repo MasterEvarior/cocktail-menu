@@ -17,13 +17,13 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <router-view />
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import { categories } from "./assets/categories.json";
+import { categories } from "./assets/cocktails.json";
 import CategoryListItem from "./components/CategoryListItem";
 
 export default {
