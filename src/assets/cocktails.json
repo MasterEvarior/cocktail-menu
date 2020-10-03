@@ -11,7 +11,24 @@
             "icon": "mdi-glass-cocktail",
             "url": "classics",
             "description": "Cocktails everyone should try at least once.",
-            "cocktails": [],
+            "cocktails": [
+                {
+                    "name": "Martini",
+                    "ingredients": [
+                        "Gin",
+                        "Vermouth"
+                    ],
+                    "description": "Shaken or stirred Mister Bond?"
+                },
+                {
+                    "name": "Margarita",
+                    "ingredients": [
+                        "Tequila",
+                        "Lime Juice",
+                        "Triple Sec"
+                    ]
+                }
+            ],
             "sub-categories": [
                 {
                     "name": "Sub Cat 1",
