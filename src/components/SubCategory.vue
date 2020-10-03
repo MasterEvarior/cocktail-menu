@@ -6,8 +6,8 @@
     <v-row>
       <v-divider />
     </v-row>
-    <v-row v-for="cocktail in subCategory" :key="cocktail.name"> 
-        <Cocktail :cocktail="cocktail"/>
+    <v-row v-for="cocktail in subCategory" :key="cocktail.name">
+      <Cocktail :cocktail="cocktail" />
     </v-row>
   </div>
 </template>
@@ -19,15 +19,10 @@ import Cocktail from "../components/Cocktail";
 export default {
   name: "SubCategory",
   components: {
-      Cocktail
+    Cocktail,
   },
   props: {
-    subCategory: Array,
-  },
-  computed: {
-    subCategoryName: function () {
-      return Object.keys(this.subCategory)[0];
-    },
+    subCategory: Object,
   },
 };
 </script>

@@ -1,16 +1,16 @@
 <template>
   <div>
-    <v-row>
-      {{ this.cocktail.name }}
+    <v-row align="center" justify="center">
+      <b>{{ this.cocktail.name }}</b>
     </v-row>
-    <v-row>
+    <v-row align="center" justify="center">
       {{ this.cocktail.description }}
     </v-row>
-    <v-row>
-      {{ this.ingredientsString }}
+    <v-row align="center" justify="center">
+      <i>{{ this.ingredientsString }}</i>
     </v-row>
-    <v-row>
-        <v-divider/>
+    <v-row class="pa-6">
+      <v-divider/>
     </v-row>
   </div>
 </template>
@@ -28,3 +28,6 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+</style>
