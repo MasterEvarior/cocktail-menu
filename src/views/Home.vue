@@ -1,8 +1,9 @@
 <template>
   <v-container>
     <v-row>
-      <v-col>
-        Home
+      <v-col class="home">
+        <h1>Cocktail Menu</h1>
+        <h2>Please select a categorie from the side bar on the top right corner</h2>
       </v-col>
     </v-row>
   </v-container>
@@ -13,3 +14,9 @@ export default {
   name: 'Home'
 }
 </script>
+
+<style scoped>
+.home{
+  text-align: center;
+}
+</style>
