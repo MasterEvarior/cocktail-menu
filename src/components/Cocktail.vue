@@ -9,7 +9,7 @@
     <v-row align="center" justify="center">
       <i>{{ this.ingredientsString }}</i>
     </v-row>
-    <v-row class="pa-6">
+    <v-row class="px-12 py-2">
       <v-divider/>
     </v-row>
   </div>
