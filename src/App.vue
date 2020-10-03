@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-app-bar app dark clipped-right>
-      <v-spacer />
-      🍹Cocktail Menu🍹
-      <v-spacer />
+      <v-spacer/>
+      <span>🍹Cocktail Menu🍹</span>
+      <v-spacer/>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
 
@@ -16,8 +16,8 @@
         />
       </v-list>
     </v-navigation-drawer>
-    <v-main> 
-      <router-view/>
+    <v-main>
+      <router-view />
     </v-main>
   </v-app>
 </template>

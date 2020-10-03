@@ -2,15 +2,23 @@
     "cocktails": {
         "classics": [
             {
-                "name": "Martini",
-                "ingredients": [
-                    "Gin", "Vermouth"
-                ],
-                "description": ""
+                "SubCategory1": [
+                    {
+                        "name": "Martini",
+                        "ingredients": [
+                            "Gin",
+                            "Vermouth"
+                        ],
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "SubCategory2": [
+                    
+                ]
             }
         ],
-        "non-alcoholic": [
-
-        ]
+        "non-alcoholic": []
     }
 }
