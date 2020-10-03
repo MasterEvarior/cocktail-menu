@@ -1,13 +1,13 @@
 <template>
   <v-app>
-    <v-app-bar app dark>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+    <v-app-bar app dark clipped-right>
       <v-spacer />
       🍹Cocktail Menu🍹
       <v-spacer />
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
     </v-app-bar>
 
-    <v-navigation-drawer app dark v-model="drawer">
+    <v-navigation-drawer clipped app dark right v-model="drawer">
       <v-list>
         <CategoryListItem
           v-for="category in categories"
