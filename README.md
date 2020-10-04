@@ -1,4 +1,7 @@
 # Cocktail Menu
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/MasterEvarior/cocktail-menu/Deploy%20to%20github%20pages)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fmasterevarior.github.io%2Faare-guru-dashboard%2F)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/MasterEvarior/cocktail-menu)  
 Just a cocktail menu for my at-home bar, so that I don't have to list a hundred drinks everytime I'm asked whats available/doable.
 
 ## Used technologies
