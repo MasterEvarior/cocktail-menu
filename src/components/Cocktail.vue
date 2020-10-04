@@ -6,7 +6,7 @@
     <v-row align="center" justify="center" class="px-12">
       {{ this.cocktail.description }}
     </v-row>
-    <v-row align="center" justify="center">
+    <v-row align="center" justify="center" class="px-12">
       <i>{{ this.ingredientsString }}</i>
     </v-row>
   </div>
