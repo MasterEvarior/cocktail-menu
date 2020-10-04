@@ -35,22 +35,47 @@
                         "Tonic"
                     ]
                 }
-            ]
+            ],
+            "subCategories": []
         },
         {
             "name": "Pure Spirits",
             "icon": "mdi-bottle-tonic",
             "url": "pure-spirits",
             "description": "Sometimes not mixing is even better.",
-            "sub-categories": [
+            "subCategories": [
                 {
                     "name": "Gin",
                     "cocktails": [
                         {
-                            "name": "Oncle Tom",
-                            "ingredients": [
-                                
-                            ]
+                            "name": "Hendrick's Gin",
+                            "description": "Scotish Gin with infusions of cucumber and rose petals.",
+                            "ingredients": []
+                        },
+                        {
+                            "name": "23 St. Distillery Signature Gin",
+                            "description": "Gin from the land down under.",
+                            "ingredients": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Whiskey",
+                    "cocktails": [
+                        {
+                            "name": "Wild Turkey Rye",
+                            "description": "A Kenutcky Straight Rye Whiskey.",
+                            "ingredients": []
+                        },
+                        {
+                            "name": "Aberlour 10 Years",
+                            "description": "Speyside Single Malt Scotch Whiskey.",
+                            "ingredients": []
+                        },
+                        {
+                            "name": "Buffalo Trace",
+                            "description": "A Straight Bourbon Whiskey from Frankfort, Kentucky.",
+                            "ingredients": []
                         }
                     ]
                 },
@@ -58,21 +83,11 @@
                     "name": "Vodka",
                     "cocktails": [
                         {
-                            "name": "Rye",
-                            "description": ""
-                        },
-                        {
-                            "name": "Aberlour 10",
-                            "description": "A smoth whiskey"
-                        },
-                        {
-                            "name": "Buffalo Trace",
-                            "description": "A Kentucky Straight Bourbon Whiskey from Frankfort, Kentucky."
+                            "name": "Hanz-Vodka",
+                            "description": "A local vodka distilled in Bern.",
+                            "ingredients": []
                         }
-                    ]
-                },
-                {
-                    "name": "Whiskey"
+                    ]    
                 }
             ]
         },
@@ -80,13 +95,15 @@
             "name": "Hot Drinks",
             "icon": "mdi-coffee",
             "url": "hot-drinks",
-            "description": "Something to warm you up on a cold day."
+            "description": "Something to warm you up on a cold day.",
+            "subCategories": []
         },
         {
             "name": "Non Alcoholic",
             "icon": "mdi-cup-off",
             "url": "non-alcoholic",
-            "description": "Although long belived to be a myth, apparently you can have fun without alcohol. Who would have thought?"
+            "description": "Although long belived to be a myth, apparently you can have fun without alcohol. Who would have thought?",
+            "subCategories": []
         }
     ]
 }

@@ -12,21 +12,21 @@
     <row v-for="cocktail in category.cocktails" :key="cocktail.name">
       <Cocktail :cocktail="cocktail"/>
     </row>
-    <!-- <row v-for="subCategory in category.sub-categories" :key="subCategory.name">
-      <SubCategory/>
-    </row> -->
+    <v-row v-for="subCategory in category.subCategories" :key="subCategory.key">
+      <SubCategory :subCategory="subCategory"/>
+    </v-row>
   </v-container>
 </template>
 
 <script>
 import { categories } from "../assets/cocktails.json";
 import Cocktail from "../components/Cocktail";
-// import SubCategory from "../components/SubCategory";
+import SubCategory from "../components/SubCategory";
 
 export default {
   name: "Category",
   components: {
-    // SubCategory,
+    SubCategory,
     Cocktail,
   },
   computed: {
