@@ -36,6 +36,23 @@
                         "Gin",
                         "Tonic"
                     ]
+                },
+                {
+                    "name": "Dark and Stormy",
+                    "description": "One of the few patented cocktails.",
+                    "ingredients": [
+                        "Gosling's Bermuda Black Rum",
+                        "Ginger Beer"
+                    ]
+                },
+                {
+                    "name": "Daiquiri",
+                    "description": "An absolut classic, around since the 1890's.",
+                    "ingredients": [
+                        "White Rum",
+                        "Lime Juice",
+                        "Simple Sirup"
+                    ]
                 }
             ],
             "subCategories": []
