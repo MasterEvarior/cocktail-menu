@@ -14,14 +14,15 @@
             "cocktails": [
                 {
                     "name": "Martini",
+                    "description": "Shaken or stirred Mister Bond?",
                     "ingredients": [
                         "Gin",
                         "Vermouth"
-                    ],
-                    "description": "Shaken or stirred Mister Bond?"
+                    ]
                 },
                 {
                     "name": "Margarita",
+                    "description": "The best thing Tequila can be used for.",
                     "ingredients": [
                         "Tequila",
                         "Lime Juice",
@@ -30,6 +31,7 @@
                 },
                 {
                     "name": "Gin Tonic",
+                    "description": "The name says it all.",
                     "ingredients": [
                         "Gin",
                         "Tonic"
@@ -87,7 +89,7 @@
                             "description": "A local vodka distilled in Bern.",
                             "ingredients": []
                         }
-                    ]    
+                    ]
                 }
             ]
         },
@@ -96,6 +98,26 @@
             "icon": "mdi-coffee",
             "url": "hot-drinks",
             "description": "Something to warm you up on a cold day.",
+            "cocktails": [
+                {
+                    "name": "Hot Toddy",
+                    "description": "It's like tea. Just with whiskey instead of tea.",
+                    "ingredients": [
+                        "Whiskey",
+                        "Hot Water",
+                        "Angostura Bitters",
+                        "Spices"
+                    ]
+                },
+                {
+                    "name": "Hot Chocholate",
+                    "description": "Hot Chocolate but because you asked so nicely we've even added some booze.",
+                    "ingredients": [
+                        "Hot Chocolate",
+                        "Alcoholic beverage of your choice"
+                    ]
+                }
+            ],
             "subCategories": []
         },
         {
@@ -103,7 +125,51 @@
             "icon": "mdi-cup-off",
             "url": "non-alcoholic",
             "description": "Although long belived to be a myth, apparently you can have fun without alcohol. Who would have thought?",
-            "subCategories": []
+            "subCategories": [
+                {
+                    "name": "Mocktails",
+                    "cocktails": [
+                        {
+                            "name": "Stay Sober",
+                            "description": "Juice and ginger beer in a glas.",
+                            "ingredients": [
+                                "Apple Juice",
+                                "Cranberry Juice",
+                                "Ginger Beer"
+                            ]
+                        },
+                        {
+                            "name": "Shirley Temple",
+                            "description": "Mocktail named american actress Shirley Temple.",
+                            "ingredients": [
+                                "Ginger Ale",
+                                "Grenadine Sirup",
+                                "Limonade"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Soda",
+                    "cocktails": [
+                        {
+                            "name": "Oran Soda",
+                            "description": "Sweet soft drink that taste like oranges.",
+                            "ingredients": []
+                        },
+                        {
+                            "name": "Lemon Soda",
+                            "description": "Sweet-sour soft drink that taste like lemons.",
+                            "ingredients": []
+                        },
+                        {
+                            "name": "Mojito Soda",
+                            "description": "Sweet soft drink that tastes kinda like a Mojito",
+                            "ingredients": []
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
