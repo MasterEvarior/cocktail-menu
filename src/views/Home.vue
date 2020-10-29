@@ -3,7 +3,7 @@
     <v-row>
       <v-col class="home">
         <h1>Cocktail Menu</h1>
-        <h2>Please select a category from the side bar on the top right corner</h2>
+        <h2>Please select a category from the side bar on the top left corner</h2>
       </v-col>
     </v-row>
   </v-container>
