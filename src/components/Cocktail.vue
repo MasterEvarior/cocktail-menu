@@ -1,15 +1,15 @@
 <template>
-  <div>
-    <v-row align="center" justify="center">
-      <b>{{ this.cocktail.name }}</b>
-    </v-row>
-    <v-row align="center" justify="center" class="px-12">
-      {{ this.cocktail.description }}
-    </v-row>
-    <v-row align="center" justify="center" class="px-12">
-      <i>{{ this.ingredientsString }}</i>
-    </v-row>
-  </div>
+  <v-card dark min-height="100%" class="pb-1">
+    <v-card-title>
+      <span class="title font-weight-bold">{{ this.cocktail.name }}</span>
+    </v-card-title>
+
+    <v-card-text class="headline">
+      <span class="description">{{ this.cocktail.description }}</span> <br>
+      <span>{{ this.ingredientsString }}</span>
+    </v-card-text>
+
+  </v-card>
 </template>
 
 <script>
@@ -27,4 +27,7 @@ export default {
 </script>
 
 <style scoped>
+.description{
+  font-weight: bold;
+}
 </style>

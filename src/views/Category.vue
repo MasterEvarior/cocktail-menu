@@ -1,20 +1,15 @@
 <template>
   <v-container class="category">
-    <v-row align="center" justify="center">
-      <h1>{{category.name}}</h1>
-    </v-row>
-    <v-row align="center" justify="center">
-      <span>{{category.description}}</span>
-    </v-row>
-    <v-row class="px-4 py-2">
-      <v-divider></v-divider>
-    </v-row>
-    <row v-for="cocktail in category.cocktails" :key="cocktail.name">
-      <Cocktail :cocktail="cocktail"/>
-    </row>
+    <h1>{{category.name}}</h1>
+    <span>{{category.description}}</span>
+    <v-layout row wrap justify-center>
+      <v-flex class="ma-2" xs12 sm6 md6 lg4 xl3 v-for="cocktail in category.cocktails" :key="cocktail.name">
+          <Cocktail :cocktail="cocktail"/>
+      </v-flex>
+    </v-layout>
     <v-row v-for="subCategory in category.subCategories" :key="subCategory.key">
       <SubCategory :subCategory="subCategory"/>
-    </v-row>
+    </v-row> 
   </v-container>
 </template>
 
