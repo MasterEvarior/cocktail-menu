@@ -3,6 +3,10 @@
     <v-app-bar flat app dark clipped-left>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-spacer />
+      <v-btn text @click="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon v-if="$vuetify.theme.dark"> mdi-weather-sunny </v-icon>
+        <v-icon v-else> mdi-weather-night </v-icon>
+      </v-btn>
     </v-app-bar>
 
     <v-navigation-drawer clipped app dark left v-model="drawer">
