@@ -1,13 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar app dark clipped-right>
-      <v-spacer/>
-      <span>🍹Cocktail Menu🍹</span>
-      <v-spacer/>
+    <v-app-bar flat app dark clipped-left>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+      <v-spacer />
     </v-app-bar>
 
-    <v-navigation-drawer clipped app dark right v-model="drawer">
+    <v-navigation-drawer clipped app dark left v-model="drawer">
       <v-list>
         <CategoryListItem
           v-for="category in categories"
@@ -17,7 +15,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-main>
-      <router-view/>
+      <router-view />
     </v-main>
   </v-app>
 </template>
