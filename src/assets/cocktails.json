@@ -58,6 +58,37 @@
             "subCategories": []
         },
         {
+            "name": "Tropical",
+            "icon": "mdi-palm-tree",
+            "url": "tropical",
+            "description": "Let's pretend we are on Hawaii",
+            "cocktails": [
+                {
+                    "name": "Jungle Bird",
+                    "description": "Bitter-Sweet Tiki cocktail.",
+                    "requestOnly": true,
+                    "ingredients": [
+                        "Dark Rum",
+                        "Pineapple Juice",
+                        "Lime Juice",
+                        "Simple Sirup"
+                    ]
+                },
+                {
+                    "name": "Mai Tai",
+                    "description": "One of the quintessential cocktails in Tiki culture.",
+                    "ingredients": [
+                        "Dark Rum",
+                        "White Rum",
+                        "Triple Sec",
+                        "Lime Juice",
+                        "Orgeat Sirup"
+                    ]
+                }
+            ],
+            "subCategories": []
+        },
+        {
             "name": "Pure Spirits",
             "icon": "mdi-bottle-tonic",
             "url": "pure-spirits",
